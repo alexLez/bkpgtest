@@ -1,9 +1,9 @@
 {
-  "name": "test",
+  "name": "mynewtest",
   "version": "0.0.1",
   "description": "This is the description",
   "scripts": [ "script.sh" ],
-  "install": "install -b script.sh ${PREFIX:-$HOME/.local/bin/test}",
+  "install": "install -b script.sh ${PREFIX:-$HOME/.local/bin/mynewtest}",
   "files": ["examplefile"],
   "global": "true"
 }
